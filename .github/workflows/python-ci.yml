@@ -33,3 +33,7 @@ jobs:
         run: |
           python scripts/file_validation.py
 
+      - name: Run api validation checks
+        run: |
+          python scripts/api_validation.py
+
