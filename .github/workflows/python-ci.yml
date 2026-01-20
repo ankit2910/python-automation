@@ -31,5 +31,5 @@ jobs:
 
       - name: Run file validation checks
         run: |
-          python scripts/validate_files.py
+          python scripts/file_validation.py
 
